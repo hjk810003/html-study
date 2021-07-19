@@ -61,7 +61,7 @@
     <!-- #container -->
     <main id="container">
       <div class="swiper-wrap">
-        <div class="swiper-container">
+        <div class="main-slider swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="http://placehold.it/1600x570/dddddd" alt="메인슬라이드 이미지 1">
@@ -88,26 +88,26 @@
     <!-- footer -->
     <footer id="footer"></footer>
     <!-- // footer -->
-
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        // spaceBetween: 20,
-        slidesPerView: 1,
-        loop: true,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-          },
-        },
-      });
-    </script>
   </div>
+
+  <script>
+    var swiper = new Swiper(".main-slider", {
+      // spaceBetween: 20,
+      slidesPerView: 1,
+      loop: true,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script>
 </body>
 </html>

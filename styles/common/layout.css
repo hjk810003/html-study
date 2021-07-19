@@ -23,13 +23,12 @@ header .gnb-nav ul>li {float: left; width: 12.5%; box-sizing: border-box; text-a
 header .gnb-nav ul>li>a {display: block; color: #222; font-size: 18px; font-weight: 500;}
 
 /* main */
-#container {padding-top: 158px;}
+#container {padding-top: 164px;}
 #container .swiper-container {position: relative; width: 100%; height: 100%;}
 #container .swiper-container .swiper-wrapper {}
 #container .swiper-container .swiper-wrapper .swiper-slide {}
 #container .swiper-container .swiper-wrapper .swiper-slide img {display: block; width: 100%; height: 570px;}
-#container .swiper-pagination {position: absolute; top: 100px; left: 340px; width: auto; z-index: 99;}
+#container .swiper-pagination {position: absolute; top: 100px; left: 355px; width: auto; z-index: 99;}
 #container .swiper-pagination-bullet {position: relative; width: 55px; height: 20px; margin: 0;padding-bottom: 30px; line-height: 20px; text-align: left; font-size: 24px; font-weight: 400; color: #fff; opacity: 0.5; background: transparent;}
 #container .swiper-pagination-bullet::before {content:''; display: block; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: #fff;}
 #container .swiper-pagination-bullet-active {opacity: 1;}
-
