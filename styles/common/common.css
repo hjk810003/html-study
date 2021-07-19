@@ -15,7 +15,7 @@ body{
   font-family: 'Roboto', 'Noto Sans KR', sans-serif;
 }
 
-/* claerfix 설정 */
+/* clearfix 설정 */
 .float-area::after{
   display: block;
   content: '';
