@@ -2,9 +2,9 @@
 
 ```
 ├── images
-|   ├── common // 공통 이미지 (ex. logo)
-|   ├── btn // 버튼 이미지 (ex. btn_more)
-|   ├── ico // 아이콘 이미지 (ex. ico_auth)
+|   ├── common // 공통 이미지
+|   |   ├── logo // 로고 이미지
+|   |   └── ico // 아이콘 이미지 (ex. ico_auth)
 |   └── pic // 기타 이미지 
 |
 ├── js
