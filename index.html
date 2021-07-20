@@ -7,6 +7,7 @@
 
   <script async src="/js/common/jquery-1.12.4.min.js"></script>
   <script async src="/js/lib/swiper-bundle.min.js"></script>
+  <script async src="/js/main.js"></script>
 
   <link rel="stylesheet" href="/styles/common/reset.css">
   <link rel="stylesheet" href="/styles/common/common.css">
@@ -59,7 +60,7 @@
     </header>
     <!-- // header -->
 
-    <!-- #container -->
+    <!-- main -->
     <main id="container">
       <div class="swiper-wrap">
         <div class="swiper-container main-slider">
@@ -84,31 +85,66 @@
         </div>
       </div>
     </main>
-    <!-- // #container -->
+    <!-- // main -->
+
+    <!-- section -->
+    <section class="notice-wrap">
+      <div class="notice-inner float-area">
+        <div class="notice-tab-menu">
+          <h2>공지사항</h2>
+          <ul class="tab-tit">
+            <li class="on" data-tab="tab-1">수시</li>
+            <li data-tab="tab-2">정시</li>
+            <li data-tab="tab-3">산업체위탁</li>
+            <li data-tab="tab-4">학사학위전공심화</li>
+            <li data-tab="tab-5">e-MU</li>
+            <li data-tab="tab-6">계약학과</li>
+          </ul>
+          <div class="tab-cont">
+            <div id="tab-1" class="on">
+              <ul>
+                <li>11</li>
+              </ul>
+            </div>
+            <div id="tab-2">
+              <ul>
+                <li>22</li> 
+              </ul>
+            </div>
+            <div id="tab-3">
+              <ul>
+                <li>33</li>
+              </ul>
+            </div>
+            <div id="tab-4">
+              <ul>
+                <li>44</li>
+              </ul>
+            </div>
+            <div id="tab-5">
+              <ul>
+                <li>55</li>
+              </ul>
+            </div>
+            <div id="tab-6">
+              <ul>
+                <li>66</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="notice-slide">
+
+        </div>
+      </div>
+    </section>
+    <!-- // section -->
 
     <!-- footer -->
     <footer id="footer"></footer>
     <!-- // footer -->
   </div>
 
-  <script>
-    var swiper = new Swiper(".main-slider", {
-      // spaceBetween: 20,
-      slidesPerView: 1,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-      },
-    });
-  </script>
 </body>
 </html>
